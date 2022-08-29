@@ -1,0 +1,34 @@
+body {
+    background-color: #BBC8CA;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-align: center;
+    color: #58504A;
+}
+
+a {
+    font-weight: bold;
+}
+
+#odin-recipes-image {
+    border-radius: 20px;
+    transition-property: transform;
+    transition-duration: 0.4s;
+}
+
+#odin-recipes-image:hover {
+    transform: translatey(-20px);
+    transition-property: transform;
+    transition-duration: 0.4s;
+}
+
+.food-image {
+    border-radius: 20px;
+    transition-property: transform;
+    transition-duration: 0.4s;
+}
+
+.food-image:hover {
+    transform: translatey(-20px);
+    transition-property: transform;
+    transition-duration: 0.4s;
+}
